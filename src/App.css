@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Poppins&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  background-color: white;
+  padding: 25px 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 15px;
+  color: black;
+  margin-right: 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: bottom 50px right 100px; */
+}
+
+.home__intro {
+  padding-top: 40px;
+  margin-left: 80px;
+  font-family:'Poiret One', cursive;
+  font-weight: lighter;
+}
+
+.home__header {
+  font-size:80px;
+}
+
+.home__description {
+  font-size:60px;
+  width: 75%;
+  color:#42464d;
+}
+.navbar__header{
+  margin-left: 20px;
+}
+
+.home__projects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home__projects li {
+  /* text-decoration: none; */
+  font-size: 1.5em;
+  padding-top:20px;
+}
+
+.home__portfolio ul li {
+  text-decoration: none;
+}
+
+.home__portfolio {
+  font-size: 2em;
+}
+
+.home__dicegame {
+  widows: 100%;
+  height: 200px;
+}
+
+.contact__page {
+  font-family:'Poiret One', cursive;
+  font-weight: lighter;
+}
+
+.contact__content {
+  margin-top: 50px;
+  height: 50vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size:20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.contact__name {
+  height: 30px;
+  width: 250px;
+  margin-bottom: 20px;
+  margin-right: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact__name::placeholder {
+  font-size:25px;
+}
+
+.contact__email {
+  height: 30px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.contact__email::placeholder {
+  font-size:25px;
+}
+
+textarea {
+  width: 610px;
+  height: 120px;
 }

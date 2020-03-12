@@ -1,5 +1,7 @@
 import React from 'react';
 import dicegame from '../images/dicegame.png';
+import rugbyscoreboard from '../images/rugbyscoreboard.png';
+import cocktail from '../images/cocktail.png';
 
 
 export default function Home(props) {
@@ -13,11 +15,12 @@ export default function Home(props) {
                 <h3 className="home__portfolio">Portfolio</h3>
                 <ul className="home__projects">
                     <li>Dice Game JS</li>
-                    <img className="home__dicegame" src={dicegame} />
+                    <img className="home__dicegame" src={dicegame} alt="dicegame-screenshot" />
                     <li>Rugby Scoreboard JS</li>
-                    <li>To do list JS</li>
+                    <img className="home__dicegame" src={rugbyscoreboard} alt="rugbyscoreboard-screenshot" />
                     <li>Weather API Node</li>
                     <li>Mem project Node</li>
+                    <img className="home__dicegame" src={cocktail} alt="cocktail-screenshot" />
                 </ul>
             </div>
         </div>

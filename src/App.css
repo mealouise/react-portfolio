@@ -2,7 +2,7 @@
 
 nav {
   background-color: white;
-  padding: 25px 50px;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .home__intro {
-  padding-top: 40px;
+  /* padding-top: 40px; */
   margin-left: 80px;
   font-family:'Poiret One', cursive;
   font-weight: lighter;
@@ -39,7 +39,7 @@ body {
 
 .home__header {
   font-size:60px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .home__description {
@@ -71,8 +71,8 @@ body {
 }
 
 .home__dicegame {
-  widows: 100%;
-  height: 200px;
+  width: 350px;
+  height: 250px;
 }
 
 .contact__page {
@@ -197,3 +197,20 @@ input {
 .github:hover {
   transform: scale(1.1);
 }
+
+.home__projects li {
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 20px;
+  padding:0;
+}
+
+
+.home__screenshots ul li {
+  text-decoration: none;
+}
+/* 
+.home__content {
+  padding:0;
+  margin: 0;
+} */

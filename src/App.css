@@ -173,6 +173,7 @@ input {
   font-family:'Poiret One', cursive;
   font-weight: lighter;
   text-align: center;
+
 }
 
 .about__header {
@@ -240,7 +241,15 @@ input {
   border-style: 1px solid white;
 }
 
-/* .home__introduction {
-  display: flex;
-  flex-direction: row;
-} */
+.about__images {
+  display:flex;
+  flex-wrap: wrap;
+  /* flex-basis: 33%;
+  flex-direction: row; */
+}
+
+
+.about__images li {
+  list-style: none;
+  flex: 0 0 25%;
+}

@@ -42,13 +42,6 @@ export default function About() {
                     </li>
                 
                 </ul>
-
-
-
-
-
-
-
                 <div className="about__logos">
                     <div class = "linkedin">
                         <a href="https://uk.linkedin.com/in/emma-sheridan-47963376" target="blank">

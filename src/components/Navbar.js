@@ -8,7 +8,7 @@ export default function Navbar() {
             <Link to="/"><h1 className="navbar__header">Emma Sheridan</h1></Link>
             <ul>
                 {/* <li>HOME</Link></li> */}
-                <li><Link to="/about">ABOUT</Link></li>
+                <li><Link to="/about">PORTFOLIO</Link></li>
                 <li><Link to="/contact">CONTACT</Link></li>
             </ul>
         </nav>

@@ -1,25 +1,54 @@
-import React from 'react'
-import chucknorris from '../images/chucknorris.png';
+import React from 'react';
 import harrypotter from '../images/harrypotter.png';
 import nasa from '../images/nasa.png';
 import github from '../images/greygithub.png';
 import linkedin from '../images/greylinkedin.png';
+import '../css/Portfolio.css';
+import northernfail from '../images/northernfail.png';
+import todolist from '../images/todolist.png';
+import cocktail from '../images/cocktail.png';
+import rugby from '../images/rugby.png';
 
 
 export default function About() {
     return (
         <div className="about__container">
             <div className="about__content">
-                <h1 className="about__header">ABOUT ME</h1>
-                <div className="about__intro">
-                    <p>Trainee Junior Developer learning Javascript, React & Node JS</p>
-                    <p>I have a great eye for detail with UX key focus on designs built</p>
-                </div>
-                <div className="about__images">
-                    <img className="about__image" src={chucknorris} alt="chucknorris-screenshot" />
-                    <img className="about__image" src={harrypotter} alt="harrypotter-screenshot" />
-                    <img className="about__image" src={nasa} alt="nasa-screenshot" />
-                </div>
+                <h1 className="about__header">PORTFOLIO</h1>
+                <ul className="about__images">
+                    <li>
+                        <h5>Northern Fail</h5>
+                        <img className="home__dicegame" src={northernfail} alt="northernfail-screenshot" />
+                    </li>
+                    <li>
+                        <h5>To do List JS</h5>
+                        <img className="home__dicegame" src={todolist} alt="todolist-screenshot" />
+                    </li>
+                    <li>
+                        <h5>Rugby Scoreboard JS</h5>
+                        <img className="home__dicegame" src={rugby} alt="todolist-screenshot" />
+                    </li>
+                    <li>
+                        <h5>Cocktail API Node JS</h5>
+                        <img className="home__dicegame" src={cocktail} alt="cocktail-screenshot" />
+                    </li>
+                    <li>
+                        <h5>Harry Potter API Node JS</h5>
+                        <img className="home__dicegame" src={harrypotter} alt="harrypotter-screenshot" />
+                    </li>
+                    <li>
+                        <h5>Nasa API Node JS</h5>
+                        <img className="about__image" src={nasa} alt="nasa-screenshot" />
+                    </li>
+                
+                </ul>
+
+
+
+
+
+
+
                 <div className="about__logos">
                     <div class = "linkedin">
                         <a href="https://uk.linkedin.com/in/emma-sheridan-47963376" target="blank">

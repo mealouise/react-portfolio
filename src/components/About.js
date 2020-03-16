@@ -16,33 +16,33 @@ export default function About() {
             <div className="about__content">
                 <h1 className="about__header">PORTFOLIO</h1>
                 <ul className="about__images">
-                    <li>
+                    <li className="about__portfolio"> 
                         <h5>Northern Fail</h5>
                         <img className="home__dicegame" src={northernfail} alt="northernfail-screenshot" />
                     </li>
-                    <li>
+                    <li className="about__portfolio">
                         <h5>To do List JS</h5>
                         <img className="home__dicegame" src={todolist} alt="todolist-screenshot" />
                     </li>
-                    <li>
+                    <li className="about__portfolio">
                         <h5>Rugby Scoreboard JS</h5>
                         <img className="home__dicegame" src={rugby} alt="todolist-screenshot" />
                     </li>
-                    <li>
+                    <li className="about__portfolio">
                         <h5>Cocktail API Node JS</h5>
                         <img className="home__dicegame" src={cocktail} alt="cocktail-screenshot" />
                     </li>
-                    <li>
+                    <li className="about__portfolio">
                         <h5>Harry Potter API Node JS</h5>
                         <img className="home__dicegame" src={harrypotter} alt="harrypotter-screenshot" />
                     </li>
-                    <li>
+                    <li className="about__portfolio">
                         <h5>Nasa API Node JS</h5>
                         <img className="about__image" src={nasa} alt="nasa-screenshot" />
                     </li>
                 
                 </ul>
-                <div className="about__logos">
+                {/* <div className="about__logos">
                     <div class = "linkedin">
                         <a href="https://uk.linkedin.com/in/emma-sheridan-47963376" target="blank">
                         <img src={linkedin} alt="Linkedin" />
@@ -52,8 +52,8 @@ export default function About() {
                         <a href="https://github.com/mealouise" target="blank">
                         <img src={github} alt="Github" />
                     </a>
-                    </div>
-                </div>
+                    </div> */}
+                {/* </div> */}
             </div>
                 
         </div>

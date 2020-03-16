@@ -86,8 +86,7 @@ a {
 }
 
 .home__dicegame {
-  width: 350px;
-  height: 250px;
+  width: 100%;
 }
 
 .contact__page {
@@ -165,7 +164,6 @@ input {
 }
 
 .about__images {
-  width: 25%;
   margin-top: 60px;
 }
 
@@ -189,8 +187,6 @@ input {
 .about__images {
   display: flex;
   justify-content: space-between;
-  margin-left: 80px;
-  margin-bottom: 80px;
 }
 
 .about__logos {
@@ -227,9 +223,9 @@ input {
 }
 
 .home__aboutme {
-  padding-top: 60px;
+  padding-top: 30px;
   margin: 0;
-  font-size:32px;
+  font-size:24px;
 }
 
 .home__portfoliolink {
@@ -249,7 +245,14 @@ input {
 }
 
 
-.about__images li {
-  list-style: none;
-  flex: 0 0 25%;
+.about__portfolio {
+    list-style: none;
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.about__portfolio:last-child {
+  margin-right: 0;
 }

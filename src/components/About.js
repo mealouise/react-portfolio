@@ -1,12 +1,13 @@
 import React from 'react';
-import harrypotter from '../images/harrypotter.png';
+import harrypotter1 from '../images/harrypotter1.png';
 import nasa from '../images/nasa.png';
+import nasa1 from '../images/nasa1.png';
 import github from '../images/greygithub.png';
 import linkedin from '../images/greylinkedin.png';
 import '../css/Portfolio.css';
 import northernfail1 from '../images/northernfail1.png'
 import todolist1 from '../images/todolist1.png';
-import cocktail from '../images/cocktail.png';
+import cocktail1 from '../images/cocktail1.png';
 import rugbyscoreboard1 from '../images/rugbyscoreboard1.png';
 
 
@@ -30,15 +31,15 @@ export default function About() {
                     </li>
                     <li className="about__portfolio">
                         <h5>Cocktail API Node JS</h5>
-                        <img className="home__screenshot" src={cocktail} alt="cocktail-screenshot" />
+                        <img className="home__screenshot" src={cocktail1} alt="cocktail-screenshot" />
                     </li>
                     <li className="about__portfolio">
                         <h5>Harry Potter API Node JS</h5>
-                        <img className="home__screenshot" src={harrypotter} alt="harrypotter-screenshot" />
+                        <img className="home__screenshot" src={harrypotter1} alt="harrypotter-screenshot" />
                     </li>
                     <li className="about__portfolio">
                         <h5>Nasa API Node JS</h5>
-                        <img className="home__screenshot" src={nasa} alt="nasa-screenshot" />
+                        <img className="home__screenshot" src={nasa1} alt="nasa-screenshot" />
                     </li>
                 
                 </ul>

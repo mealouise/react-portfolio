@@ -11,7 +11,7 @@ import cocktail1 from '../images/cocktail1.png';
 import rugbyscoreboard1 from '../images/rugbyscoreboard1.png';
 
 
-export default function About() {
+export default function Portfolio() {
     return (
         <div className="about__container">
             <div className="about__content">

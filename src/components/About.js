@@ -4,10 +4,10 @@ import nasa from '../images/nasa.png';
 import github from '../images/greygithub.png';
 import linkedin from '../images/greylinkedin.png';
 import '../css/Portfolio.css';
-import northernfail from '../images/northernfail.png';
-import todolist from '../images/todolist.png';
+import northernfail1 from '../images/northernfail1.png'
+import todolist1 from '../images/todolist1.png';
 import cocktail from '../images/cocktail.png';
-import rugby from '../images/rugby.png';
+import rugbyscoreboard1 from '../images/rugbyscoreboard1.png';
 
 
 export default function About() {
@@ -18,27 +18,27 @@ export default function About() {
                 <ul className="about__images">
                     <li className="about__portfolio"> 
                         <h5>Northern Fail</h5>
-                        <img className="home__dicegame" src={northernfail} alt="northernfail-screenshot" />
+                        <img className="home__screenshot" src={northernfail1} alt="northernfail-screenshot" />
                     </li>
                     <li className="about__portfolio">
                         <h5>To do List JS</h5>
-                        <img className="home__dicegame" src={todolist} alt="todolist-screenshot" />
+                        <img className="home__screenshot" src={todolist1} alt="todolist-screenshot" />
                     </li>
                     <li className="about__portfolio">
                         <h5>Rugby Scoreboard JS</h5>
-                        <img className="home__dicegame" src={rugby} alt="todolist-screenshot" />
+                        <img className="home__screenshot" src={rugbyscoreboard1} alt="todolist-screenshot" />
                     </li>
                     <li className="about__portfolio">
                         <h5>Cocktail API Node JS</h5>
-                        <img className="home__dicegame" src={cocktail} alt="cocktail-screenshot" />
+                        <img className="home__screenshot" src={cocktail} alt="cocktail-screenshot" />
                     </li>
                     <li className="about__portfolio">
                         <h5>Harry Potter API Node JS</h5>
-                        <img className="home__dicegame" src={harrypotter} alt="harrypotter-screenshot" />
+                        <img className="home__screenshot" src={harrypotter} alt="harrypotter-screenshot" />
                     </li>
                     <li className="about__portfolio">
                         <h5>Nasa API Node JS</h5>
-                        <img className="about__image" src={nasa} alt="nasa-screenshot" />
+                        <img className="home__screenshot" src={nasa} alt="nasa-screenshot" />
                     </li>
                 
                 </ul>
